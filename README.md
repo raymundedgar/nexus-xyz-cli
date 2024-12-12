@@ -33,3 +33,35 @@ sudo apt install -qy docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 * To check logs
    ```bash
    docker compose logs -fn 100
+
+
+### this is how to create many containers in a docker-compose file
+
+First Of all, what you need to do is change the BASE_PROVER_ID="null" in auto-create.sh
+```bash
+cd nexus-xyz-cli 
+nano auto-create.sh
+```
+
+Change "null" to your proverid
+then you can execute the following command below:
+
+```bash
+chmod +x auto.create.sh
+./auto.create.sh <FILL_THE_NUMBER_YOU_WANT>
+```
+
+* For example
+```js
+./auto-create.sh 10
+```
+that means you are creating 10 container in a docker compose file
+
+
+after all files created, you can easily execute it
+
+```bash
+docker compose up -d
+```
+
+**ENJOOOY**
