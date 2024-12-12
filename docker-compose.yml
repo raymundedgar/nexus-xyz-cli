@@ -1,5 +1,8 @@
 services:
-  nexus-cli:
+  nexus-xyz-cli:
+    container_name: nexus-xyz-cli
     build: .
+    restart: unless-stopped
+    stop_grace_period: 5m
     environment:
       - PROVER_ID=PROVER_ID_HERE
