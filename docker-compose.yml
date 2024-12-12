@@ -1,0 +1,5 @@
+services:
+  nexus-cli:
+    build: .
+    environment:
+      - PROVER_ID=PROVER_ID_HERE
