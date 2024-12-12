@@ -34,7 +34,8 @@ sudo apt install -qy docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
    ```bash
    docker compose logs -fn 100
 
-* this is how to create many containers in a docker-compose file
+
+### this is how to create many containers in a docker-compose file
 
 First Of all, what you need to do is change the BASE_PROVER_ID="null" in auto-create.sh
 ```bash
