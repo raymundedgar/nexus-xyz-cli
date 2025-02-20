@@ -23,7 +23,7 @@ sudo apt install -qy docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 2. Get Prover ID at the left bottom corner
 3. Clone This Repository
    ```bash
-   git clone https://github.com/CryptoNodeID/nexus-xyz-cli.git
+   git clone https://github.com/raymundedgar/nexus-xyz-cli.git
    cd nexus-xyz-cli
 5. Put the Prover ID in docker-compose.yml
 6. Run
